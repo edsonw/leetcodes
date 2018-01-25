@@ -1,4 +1,4 @@
-/**
+package LinkedList; /**
  * Created by woo23 on 2017/12/7.
  */
 import org.w3c.dom.ls.LSInput;

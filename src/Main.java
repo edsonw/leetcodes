@@ -10,7 +10,7 @@ public class Main {
 //        findNumInArray problem = new findNumInArray();
 //        problem.Find(5,array);
 
-//        DeleteNodeinLinkedList object= new DeleteNodeinLinkedList();
+//        LinkedList.DeleteNodeinLinkedList object= new LinkedList.DeleteNodeinLinkedList();
 //
 
 
@@ -18,12 +18,12 @@ public class Main {
         int[] A = {1, 0, 0, 0,1};
         int[] B = {1, 0, 1, 0, 1};
 
-        CanPlaceFlowers obj = new CanPlaceFlowers();
-        System.out.print(obj.canPlaceFlowers(A,2));
+        CompareTwoStringIsSame obj = new CompareTwoStringIsSame();
+        System.out.println(obj.isSame("bbabcdabdabaa", "aa"));
 //        MaximumLengthofRepeatedSubarray obj = new MaximumLengthofRepeatedSubarray();
 //        System.out.print(obj.findLength(A,B));
-//        DeleteNodeinLinkedList.ListNode temp = l1;
-//        temp.next = new DeleteNodeinLinkedList().new ListNode(8);
+//        LinkedList.DeleteNodeinLinkedList.LinkedList.ListNode temp = l1;
+//        temp.next = new LinkedList.DeleteNodeinLinkedList().new LinkedList.ListNode(8);
 //        temp = temp.next;
 //
 //        object.addTwoNumbers(l1,l2);
