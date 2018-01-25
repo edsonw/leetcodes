@@ -1,3 +1,5 @@
+package LinkedList;
+
 import sun.java2d.opengl.WGLGraphicsConfig;
 
 import java.lang.reflect.Member;

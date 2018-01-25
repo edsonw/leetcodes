@@ -1,3 +1,5 @@
+package LinkedList;
+
 /**
  * Created by woo23 on 2017/12/5.
  */
