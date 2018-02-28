@@ -1,5 +1,6 @@
 /**
  * Created by woo23 on 2018/2/28.
+ * 通过计算5的个数来判断末尾0的个数。
  */
 public class FactorialTrailingZeroes {
     public int trailingZeroes(int n) {
