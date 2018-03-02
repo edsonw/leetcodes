@@ -29,14 +29,14 @@ public class AliQuestionOne {
         }
         System.out.print(total);*/
 
-       System.out.print(helper(0,N, M));
+       System.out.print(helper(N, M));
 
     }
-    private static int helper(int total ,int N,int M){
+    private static int helper(int N,int M){
         if(N==0)
             return M;
-        total =M*(int)Math.pow(M-1,N-1);
-        return total-helper(total,N-1, M);
+
+        return M*(int)Math.pow(M-1,N-1)-helper(N-1, M);
 
     }
 
