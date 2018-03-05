@@ -4,6 +4,9 @@
  * 这里判断中位数的时候不要两个数相加除2这样会导致溢出，使用start+(end-start)/2 这样能让结果不溢出，并且使用中位数+1这样不会出现1+2一直等于1死循环。
  */
 public class GuessNumberHigherorLower {
+    private int guess(int n){
+        return 1;
+    }
     public int guessNumber(int n) {
         int start = 1;
         int end = n;
