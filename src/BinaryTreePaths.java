@@ -3,7 +3,7 @@
  * 这里有一个需要注意到的是java当中对象的传递是一种值传递，对基本类型是引用传递。
  */
 import java.util.List;
-
+import java.util.LinkedList;
 public class BinaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root) {
 
