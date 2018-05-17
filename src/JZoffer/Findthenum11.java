@@ -32,9 +32,7 @@ public class Findthenum11 {
             }
         } else if(end-start==1){
             return arr[end];
-
         }
-
         return 0;
     }
 }
