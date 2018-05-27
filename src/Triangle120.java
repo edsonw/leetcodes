@@ -9,7 +9,7 @@ public class Triangle120
         for(int i=0;i<size;i++){
             retlist=helper(i,triangle,retlist);
         }
-        int minnum = 9999;
+        int minnum = Integer.MAX_VALUE;
         for(int num:retlist){
             minnum = Math.min(num,minnum);
         }
