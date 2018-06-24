@@ -56,13 +56,13 @@ public class MedianofTwoSortedArrays {
     }
 
 //    一个笨但是有效的办法，存在另外一个数组当中，再从这个数组中找出中位点
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    public double findMedianSortedArrays2(int[] nums1, int[] nums2) {
         int[] merged = new int[nums1.length+nums2.length+1];
         int size1 = nums1.length,size2 = nums2.length;
         int i = 0,j = 0,k = 0;
         while (i<size1&&j<size2){
 
-            if(nums1[i]<nums[j])
+            if(nums1[i]<nums2[j])
                 merged[k++] = nums1[i++];
             else
                 merged[k++] = nums2[j++];
