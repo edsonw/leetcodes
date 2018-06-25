@@ -5,16 +5,18 @@
  * 所以在头结点设置一个指针，相遇点设置一个指针，每次走一步，两者相遇就是环的起始点了。
  *
  */
+
 public class LinkedListCycleII {
-    public ListNode detectCycle(ListNode head) {
+
+    public MergeTwoSortedLists.ListNode detectCycle(MergeTwoSortedLists.ListNode head) {
         if (head == null)
             return null;
-        ListNode l1 = head,l2 =head;
-        while (l1 != null && l1.next != null){
+        MergeTwoSortedLists.ListNode l1 = head,l2 =head;
+        while (l1 != null && l1.next != null) {
             l1 = l1.next.next;
             l2 = l2.next;
             if(l1 == l2) {
-                ListNode l3 = head;
+                MergeTwoSortedLists.ListNode l3 = head;
                 while (l1 != l3){
                     l1 = l1.next;
                     l3 = l3.next;
