@@ -1,5 +1,6 @@
 import DP.FrogJump;
 import DP.MaximumLengthofRepeatedSubarray;
+import DP.KingAndGoldMine;
 
 public class Main {
 
@@ -15,11 +16,11 @@ public class Main {
 
 
 
-        int[] A = {1, 0, 0, 0,1};
-        int[] B = {1, 0, 1, 0, 1};
+        int[] A = {1, 7, 3, 6, 5, 6};
+        int[][] B = {{2, 3}, {3, 4},{4,5},{5,6}};
 
-        CompareTwoStringIsSame obj = new CompareTwoStringIsSame();
-        System.out.println(obj.isSame("bbabcdabdabaa", "aa"));
+        FindPivotIndex obj = new FindPivotIndex();
+        System.out.println(obj.pivotIndex(A));
 //        MaximumLengthofRepeatedSubarray obj = new MaximumLengthofRepeatedSubarray();
 //        System.out.print(obj.findLength(A,B));
 //        LinkedList.DeleteNodeinLinkedList.LinkedList.ListNode temp = l1;
