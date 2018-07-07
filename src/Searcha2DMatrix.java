@@ -3,6 +3,8 @@
  */
 public class Searcha2DMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
+
+
         int row =matrix.length;
         if(row==0)
             return false;
@@ -11,8 +13,9 @@ public class Searcha2DMatrix {
             return false;
         boolean sign = false;
         for(int i =0;i<row;i++){
-            if(matrix[i][0]<=target&&matrix[i][column]>=target)
+            if(matrix[i][0]<=target &&matrix[i][column]>=target)
                 sign = sign||helper(matrix,target,i);
+
         }
         return sign;
     }
@@ -21,13 +24,13 @@ public class Searcha2DMatrix {
 
         int start = 0,end = matrix[row].length;
         int meduim = (end-start)/2+start;
-        while (start<end){
+        while (start<=end){
             if(matrix[row][meduim]==target)
                 return true;
             if(matrix[row][meduim]>target){
-                end = meduim+1;
+                end = meduim-1;
             }else if(matrix[row][meduim]<target){
-                start = meduim-1;
+                start = meduim+1;
             }
             meduim = (end-start)/2+start;
         }
