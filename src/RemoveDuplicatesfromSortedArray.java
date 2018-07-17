@@ -11,4 +11,5 @@ public class RemoveDuplicatesfromSortedArray {
             if(A[i] != A[i-1]) A[id++] = A[i];
         return id;
     }
+
 }
