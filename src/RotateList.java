@@ -3,6 +3,12 @@
  * 旋转一个list
  */
 public class RotateList {
+
+      public class ListNode {
+          int val;
+          ListNode next;
+          ListNode(int x) { val = x; }
+      }
     public ListNode rotateRight(ListNode head, int k) {
         ListNode start = head;
         int count = 0;
